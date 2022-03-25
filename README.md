@@ -223,7 +223,7 @@ for re_file in result_fileList:
 
 结果如下：
 
-![image-20210504234551588](../../../AppData/Roaming/Typora/typora-user-images/image-20210504234551588.png)
+![image-20210504234551588](https://github.com/imajiayu/clustering-algorithm/blob/main/screenshots/image-20210504234551588.png)
 
 ## HAC聚类
 
@@ -231,7 +231,7 @@ for re_file in result_fileList:
 
 通过计算不同类别数据点间的相似度来创建一棵有层次的嵌套聚类树。在聚类树中，不同类别的原始数据点是树的最低层，树的顶层是一个聚类的根节点。
 
-![image-20210505014734107](../../../AppData/Roaming/Typora/typora-user-images/image-20210505014734107.png)
+![image-20210505014734107](https://github.com/imajiayu/clustering-algorithm/blob/main/screenshots/image-20210505014734107.png)
 
 算法步骤：
 
@@ -387,7 +387,7 @@ for re_file in result_fileList:
 
 结果如下：
 
-![image-20210505132608019](../../../AppData/Roaming/Typora/typora-user-images/image-20210505132608019.png)
+![image-20210505132608019](https://github.com/imajiayu/clustering-algorithm/blob/main/screenshots/image-20210505132608019.png)
 
 ## k-最邻近(k-NN)分类器
 
