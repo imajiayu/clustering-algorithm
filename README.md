@@ -1,4 +1,4 @@
-# 计算机视觉 1950509 马家昱 作业1
+# 计算机视觉 1950509 马家昱
 
 ## K-Means聚类
 
@@ -201,7 +201,7 @@ loop()
 
 效果如下：
 
-![black-white-kittens2](data/imgs/black-white-kittens2.jpg)![black-white-kittens2](Kmeans_result/black-white-kittens2.png)
+![black-white-kittens2](https://github.com/imajiayu/clustering-algorithm/blob/main/datasets/imgs/black-white-kittens2.jpg)![black-white-kittens2](https://github.com/imajiayu/clustering-algorithm/blob/main/Kmeans/Kmeans_result/black-white-kittens2.png)
 
 将所有图片与GroundTruth进行对比，计算正确率：
 
@@ -365,7 +365,7 @@ loop()
 
 效果如下：
 
-<img src="data/imgs/grey-american-shorthair.jpg" alt="grey-american-shorthair" style="zoom:50%;" /><img src="HAC_result/grey-american-shorthair.png" alt="grey-american-shorthair"  /> 
+<img src="https://github.com/imajiayu/clustering-algorithm/blob/main/datasets/imgs/grey-american-shorthair.jpg" alt="grey-american-shorthair" style="zoom:50%;" /><img src="https://github.com/imajiayu/clustering-algorithm/blob/main/HAC/HAC_result/grey-american-shorthair.png" alt="grey-american-shorthair"  /> 
 
 将所有图片与GroundTruth进行对比，计算正确率：
 
