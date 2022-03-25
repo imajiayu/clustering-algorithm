@@ -123,7 +123,7 @@ def getSSE():
 
 结果如下：
 
-![3](3.png)
+![3](https://github.com/imajiayu/clustering-algorithm/blob/main/screenshots/3.png)
 
 当k=3时，画出实际分类的结果
 
@@ -141,7 +141,7 @@ def draw_result():
     plt.show()
 ```
 
-![2](2.png)
+![2](https://github.com/imajiayu/clustering-algorithm/blob/main/screenshots/2.png)
 
 ### 实际应用
 
@@ -309,7 +309,7 @@ plt.show()
 
 聚类结果如下：
 
-![4](4.png)
+![4](https://github.com/imajiayu/clustering-algorithm/blob/main/screenshots/4.png)
 
 ### 实际应用
 
@@ -394,7 +394,7 @@ for re_file in result_fileList:
 ### 原理
 
 k-最邻近算法是一种基本分类和回归方法。只需在与训练数据集中寻找与输入实例最邻近的K个实例，则该实例属于K个实例中的多数。如图所示，K选择的不同影响了其分类器的准确度。
-![avatar](./1.png)
+![avatar](https://github.com/imajiayu/clustering-algorithm/blob/main/screenshots/6.png)
 
 ### 实现过程
 
@@ -466,12 +466,12 @@ def iteration(datas_train,datas_test):#迭代求使得精确度最高的k值
 
 结果如下：
 
-![avatar](./2.png)
+![avatar](https://github.com/imajiayu/clustering-algorithm/blob/main/screenshots/7.png)
 
 #### 将分类器应用至图片分类中
 
 使用数据集为sklearn.digits,数字识别，每一张图片由8x8的矩阵构成，data为一个(1797,64)向量，target为0-9共10个数字。数字"0"的样本如下：
-![avatar](./3.png)
+![avatar](https://github.com/imajiayu/clustering-algorithm/blob/main/screenshots/8.png)
 
 以其中1500个样本为训练集，迭代求最佳k值
 完整代码：
@@ -543,7 +543,7 @@ f.close()
 
 结果如下：
 
-![avatar](./4.png)
+![avatar](https://github.com/imajiayu/clustering-algorithm/blob/main/screenshots/9.png)
 
 ## 支持向量机(SVM)分类器
 
@@ -551,7 +551,7 @@ f.close()
 
 支持向量机是一个解决二分类问题的分类器。若要找到一个超平面将两组数据分开，可以采用多种分类方法。但为了使分类器的泛化能力达到最大，我们需要使离超平面最近的点（支持向量）与超平面的距离最远。
 
-![avatar](./5.png)
+![avatar](https://github.com/imajiayu/clustering-algorithm/blob/main/screenshots/10.png)
 
 ### 实现过程
 
@@ -671,8 +671,8 @@ print("准确率为：", true_answer/(true_answer+false_answer))
 
 结果如下：
 
-![avatar](./6.png)
-![avatar](./7.png)
+![avatar](https://github.com/imajiayu/clustering-algorithm/blob/main/screenshots/11.png)
+![avatar](https://github.com/imajiayu/clustering-algorithm/blob/main/screenshots/12.png)
 
 ### 将分类器应用到图像分类中
 
@@ -830,7 +830,7 @@ f.close()
 ```
 
 结果如下：
-![avatar](./8.png)
+![avatar](https://github.com/imajiayu/clustering-algorithm/blob/main/screenshots/13.png)
 
 ## 两者的差异与权衡
 
